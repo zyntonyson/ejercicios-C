@@ -1,0 +1,100 @@
+DIAS_A	04.fechas.c	4;"	d	file:
+fecha	04.fechas.c	/^struct  fecha{$/;"	s	file:
+aa	04.fechas.c	/^int aa;$/;"	m	struct:fecha	file:
+mm	04.fechas.c	/^int  mm;$/;"	m	struct:fecha	file:
+dd	04.fechas.c	/^int  dd;$/;"	m	struct:fecha	file:
+fecha	04.fechas.c	/^typedef struct fecha fecha;$/;"	t	typeref:struct:fecha	file:
+es_bisiesto	04.fechas.c	/^int es_bisiesto( int anio);$/;"	p	file:
+duracion_mes	04.fechas.c	/^int  duracion_mes( int mes, int anio);$/;"	p	file:
+dias_faltantes	04.fechas.c	/^int  dias_faltantes( fecha  inicial);$/;"	p	file:
+dias_transcurridos	04.fechas.c	/^int dias_transcurridos(fecha final);$/;"	p	file:
+dias_entreanios	04.fechas.c	/^int dias_entreanios(fecha inicial, fecha final);$/;"	p	file:
+dias_entre_fechas	04.fechas.c	/^int dias_entre_fechas(fecha inicial, fecha final);$/;"	p	file:
+main	04.fechas.c	/^int main () {$/;"	f
+es_bisiesto	04.fechas.c	/^ int es_bisiesto( int a){$/;"	f
+duracion_mes	04.fechas.c	/^int  duracion_mes( int mes, int anio){$/;"	f
+dias_faltantes	04.fechas.c	/^int  dias_faltantes( fecha  inicial){$/;"	f
+dias_transcurridos	04.fechas.c	/^int dias_transcurridos(fecha final){$/;"	f
+dias_entreanios	04.fechas.c	/^int dias_entreanios(fecha inicial, fecha final){$/;"	f
+dias_entre_fechas	04.fechas.c	/^int dias_entre_fechas(fecha inicial, fecha final){$/;"	f
+fraccion	04.fracciones.c	/^struct fraccion{$/;"	s	file:
+numerador	04.fracciones.c	/^int numerador;$/;"	m	struct:fraccion	file:
+denominador	04.fracciones.c	/^int denominador;$/;"	m	struct:fraccion	file:
+fraccion	04.fracciones.c	/^typedef struct fraccion fraccion;$/;"	t	typeref:struct:fraccion	file:
+ingreso_fraccion	04.fracciones.c	/^fraccion  *ingreso_fraccion( int n);$/;"	p	file:
+bienvenida	04.fracciones.c	/^void bienvenida();$/;"	p	file:
+regresar	04.fracciones.c	/^void regresar(fraccion *a);$/;"	p	file:
+menu	04.fracciones.c	/^void menu(fraccion *a);$/;"	p	file:
+mcd	04.fracciones.c	/^int mcd(int a, int b);$/;"	p	file:
+suma	04.fracciones.c	/^void suma(fraccion *a);$/;"	p	file:
+resta	04.fracciones.c	/^void resta(fraccion *a);$/;"	p	file:
+simplificar	04.fracciones.c	/^void simplificar(fraccion *a);$/;"	p	file:
+multiplicacion	04.fracciones.c	/^void multiplicacion(fraccion *a);$/;"	p	file:
+division	04.fracciones.c	/^void division(fraccion *a);$/;"	p	file:
+salir	04.fracciones.c	/^void salir( );$/;"	p	file:
+encabezado	04.fracciones.c	/^void encabezado();$/;"	p	file:
+main	04.fracciones.c	/^int main ( ) {$/;"	f
+ingreso_fraccion	04.fracciones.c	/^fraccion *ingreso_fraccion(int n ){$/;"	f
+mcd	04.fracciones.c	/^ int mcd(int a, int b){$/;"	f
+suma	04.fracciones.c	/^void suma(fraccion *a){$/;"	f
+resta	04.fracciones.c	/^void resta(fraccion *a){$/;"	f
+multiplicacion	04.fracciones.c	/^void multiplicacion(fraccion *a){$/;"	f
+division	04.fracciones.c	/^void division(fraccion *a){$/;"	f
+simplificar	04.fracciones.c	/^void simplificar(fraccion *a){$/;"	f
+bienvenida	04.fracciones.c	/^void bienvenida(){$/;"	f
+regresar	04.fracciones.c	/^void regresar( fraccion *a ){$/;"	f
+menu	04.fracciones.c	/^void menu(fraccion *a){$/;"	f
+salir	04.fracciones.c	/^void salir( ){$/;"	f
+encabezado	04.fracciones.c	/^void encabezado(){$/;"	f
+complejo	04.complejos.c	/^struct complejo{$/;"	s	file:
+real	04.complejos.c	/^	float real;$/;"	m	struct:complejo	file:
+imaginario	04.complejos.c	/^	float imaginario; };$/;"	m	struct:complejo	file:
+complejo	04.complejos.c	/^typedef struct  complejo complejo;$/;"	t	typeref:struct:complejo	file:
+encabezado	04.complejos.c	/^void encabezado();$/;"	p	file:
+ingreso_complejo	04.complejos.c	/^complejo  *ingreso_complejo( int n);$/;"	p	file:
+bienvenida	04.complejos.c	/^void bienvenida();$/;"	p	file:
+menu	04.complejos.c	/^void menu(complejo *a);$/;"	p	file:
+suma	04.complejos.c	/^void suma(complejo *a);$/;"	p	file:
+resta	04.complejos.c	/^void resta(complejo *a);$/;"	p	file:
+multiplicar	04.complejos.c	/^void multiplicar(complejo *a);$/;"	p	file:
+dividir	04.complejos.c	/^void dividir(complejo *a);$/;"	p	file:
+regresar	04.complejos.c	/^void regresar(complejo *a);$/;"	p	file:
+salir	04.complejos.c	/^void salir( );$/;"	p	file:
+main	04.complejos.c	/^int main () {$/;"	f
+ingreso_complejo	04.complejos.c	/^complejo *ingreso_complejo(int n ){$/;"	f
+bienvenida	04.complejos.c	/^void bienvenida(){$/;"	f
+suma	04.complejos.c	/^void suma(complejo *a){$/;"	f
+resta	04.complejos.c	/^void resta(complejo *a){$/;"	f
+multiplicar	04.complejos.c	/^void multiplicar(complejo *a){$/;"	f
+dividir	04.complejos.c	/^void dividir(complejo *a){$/;"	f
+menu	04.complejos.c	/^void menu(complejo *a){$/;"	f
+regresar	04.complejos.c	/^void regresar( complejo *a ){$/;"	f
+salir	04.complejos.c	/^void salir( ){$/;"	f
+encabezado	04.complejos.c	/^void encabezado(){$/;"	f
+DIAS_A	04.fechas_2.c	5;"	d	file:
+fecha	04.fechas_2.c	/^struct  fecha{$/;"	s	file:
+aa	04.fechas_2.c	/^int aa;$/;"	m	struct:fecha	file:
+mm	04.fechas_2.c	/^int  mm;$/;"	m	struct:fecha	file:
+dd	04.fechas_2.c	/^int  dd;$/;"	m	struct:fecha	file:
+fecha	04.fechas_2.c	/^typedef struct fecha fecha;$/;"	t	typeref:struct:fecha	file:
+encabezado	04.fechas_2.c	/^void encabezado();$/;"	p	file:
+bienvenida	04.fechas_2.c	/^void bienvenida();$/;"	p	file:
+crear_fecha	04.fechas_2.c	/^fecha *crear_fecha(int a);$/;"	p	file:
+llenar_fechas	04.fechas_2.c	/^void llenar_fechas(fecha *fechas, int a);$/;"	p	file:
+es_bisiesto	04.fechas_2.c	/^int es_bisiesto( int anio);$/;"	p	file:
+duracion_mes	04.fechas_2.c	/^int  duracion_mes( int mes, int anio);$/;"	p	file:
+dias_faltantes	04.fechas_2.c	/^int  dias_faltantes( fecha  inicial);$/;"	p	file:
+dias_transcurridos	04.fechas_2.c	/^int dias_transcurridos(fecha final);$/;"	p	file:
+dias_entreanios	04.fechas_2.c	/^int dias_entreanios(fecha inicial, fecha final);$/;"	p	file:
+dias_entre_fechas	04.fechas_2.c	/^int dias_entre_fechas( fecha *fechas);$/;"	p	file:
+main	04.fechas_2.c	/^int main () {$/;"	f
+es_bisiesto	04.fechas_2.c	/^int es_bisiesto( int a){$/;"	f
+duracion_mes	04.fechas_2.c	/^int  duracion_mes( int mes, int anio){$/;"	f
+dias_faltantes	04.fechas_2.c	/^int  dias_faltantes( fecha  inicial){$/;"	f
+dias_transcurridos	04.fechas_2.c	/^int dias_transcurridos(fecha final){$/;"	f
+dias_entreanios	04.fechas_2.c	/^int dias_entreanios(fecha inicial, fecha final){$/;"	f
+dias_entre_fechas	04.fechas_2.c	/^int dias_entre_fechas( fecha *fechas){$/;"	f
+crear_fecha	04.fechas_2.c	/^fecha *crear_fecha(int a){$/;"	f
+llenar_fechas	04.fechas_2.c	/^void llenar_fechas(fecha *fechas, int a){$/;"	f
+bienvenida	04.fechas_2.c	/^void bienvenida( ){$/;"	f
+encabezado	04.fechas_2.c	/^void encabezado(){$/;"	f
